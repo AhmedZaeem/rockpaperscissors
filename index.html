@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <script src="scripts.js"></script>
+<head>
+	<title>RPS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="./logo.png"/>
+
+</head>
+<body id="body1">
+        <div class="container">
+ 	<div class="header">
+    <h1>Welcome</h1>
+    <p> To RockPaperScissors</p>
+    <p id="errorMSG" style="color: red;"></p>
+ 	</div>
+ 	<div class="main">
+ 		<form id="form">
+ 			<span>
+ 				<i class=".."></i>
+ 				<input id="numinput" type="number" placeholder="number of rounds (should be odd)" name="">
+ 			</span><br>
+             <span>
+                <i class="..."></i>
+          <select id="lang">
+           <option value="1">Chose your language</option>
+           <option value="2">English</option>
+           <option value="3">Arabic</option>
+           <option value="4">German</option>
+           <option value="5">Korean</option>
+          </select>
+       
+            </span><br>
+             <div>
+ 			<span class="gamemodeclass">
+ 				<i class="..."></i>
+           <select id="gamemode">
+            <option value="1">Chose a game mode</option>
+            <option value="2">Casual</option>
+            <option value="3">Advanced</option>
+            <option value="4">insane!</option>
+           </select>
+           <input type="button" id="btninfo" onclick="infobtn()"/>
+
+ 			</span><br>
+        </div>
+        
+ 				<input type="button"value="Let's Begin" id="BTN1" onclick="begingame()">
+ 		</form>
+         
+ 	</div>
+ </div>
+ 
+</body>
+</html>
